@@ -1,0 +1,108 @@
+header {
+    height: 100vh;
+    padding-top: 5.5rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+
+.header__logo {
+    color: var(--color-white);
+    font-size: 2rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.header__logo img{
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.header__logo span {
+    font-family: var(--font-logo); 
+}
+.header__logo:hover {
+    color: var(--color-white);
+}
+
+/* ============== CTA ==============*/
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* =========== SOCIALS ===========*/
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ============= ME =============*/
+.me {
+    background: linear-gradient(var(--color-bg-variant),transparent 40%);
+    width: 22rem;
+    height: 40rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* ========= SCROLL DOWN =========*/
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* ======== MEDIA QUERIES (MEDIUM DEVICES) ======== */
+@media screen and (max-width: 1024px) {
+    .header__logo img{
+        width: 120px;
+    }
+    .me {
+        width: 25rem;
+        height: 40rem;
+    }
+}
+
+/* ======== MEDIA QUERIES (SMALL DEVICES) ======== */
+@media screen and (max-width: 600px) {
+    .header__socials, .scroll__down {
+        display: none;
+    }
+    .header__logo img{
+        width: 120px;
+    }
+    .me {
+        width: 22rem;
+        margin-top: 6rem;
+        padding: 4.55rem 1.5rem 1.5rem 1.5rem;
+    }
+}

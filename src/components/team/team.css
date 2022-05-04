@@ -1,0 +1,79 @@
+.team__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.team__container > div {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 0.9rem;
+    margin: 0.5rem;
+    transition: var(--transition);
+}
+
+.team__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.team__container > div h3 {
+    text-align: left;
+    font-size: 27px;
+    margin: 1rem 0 0.2rem 0;
+    color: var(--color-primary);
+}
+
+
+.team__container > div h5 {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-family: var(--font-logo);
+}
+
+.member-icons {
+    display: flex;
+}
+
+.member-icons a {
+    font-size: 18px;
+    margin-right: 1rem;
+}
+
+.member-icons::after {
+    content: "";
+    margin-top:0.8rem;
+    width: 2rem;
+    height: 1px;
+    background: var(--color-primary);
+}
+
+
+/* .member {
+    background: linear-gradient(var(--color-primary),transparent);
+    width: 15rem;
+    height: 20rem;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+} */
+
+
+/* ======== MEDIA QUERIES (MEDIUM DEVICES) ======== */
+
+@media screen and (max-width: 1024px) {
+    .team__container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ======== MEDIA QUERIES (SMALL DEVICES) ======== */
+
+@media screen and (max-width: 600px) {
+    .team__container {
+        grid-template-columns: 1fr;
+    }
+}

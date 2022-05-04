@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap');
+
+:root {
+    /* ============= font ============= */
+--font: 'Poppins', sans-serif;
+--font-logo:'Comfortaa', cursive;
+
+/* ============ container ============ */
+--container-width-lg: 75%;
+--container-width-md: 86%;
+--container-width-sm: 90%;
+
+/* ============ transition ============ */
+--transition: all 400ms ease;
+
+/* ============== colors ============== */
+--color-bg: #1f1f38;
+--color-bg-variant: #2c2c6c;
+--color-primary: #4db5ff;
+--color-primary-variant: rgba(77, 181, 255,0.4);
+--color-white: #fff;
+--color-light: rgba(255 ,255 ,255, 0.6);
+
+
+/* --color-bg: #17252A;
+--color-bg-variant: #2B7A78;
+--color-primary: #3AAFA9;
+--color-primary-variant: #DEF2F1;
+--color-white: #fff;
+--color-light: rgba(255 ,255 ,255, 0.6); */
+
+}
