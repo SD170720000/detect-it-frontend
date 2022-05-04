@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/detect-it-frontend/static/css/main.f22379ff.css",
+    "main.js": "/detect-it-frontend/static/js/main.9230c965.js",
+    "static/media/social-media.webp": "/detect-it-frontend/static/media/social-media.bcd6857d0f03193da7af.webp",
+    "static/media/good-bad.svg": "/detect-it-frontend/static/media/good-bad.f7c4160acc70775f719521d86db7a2cc.svg",
+    "static/media/sneha.png": "/detect-it-frontend/static/media/sneha.7940d78bb093c54b8b1b.png",
+    "static/media/abhishek.png": "/detect-it-frontend/static/media/abhishek.b645ad8ad60b5344e852.png",
+    "static/media/subhankar.png": "/detect-it-frontend/static/media/subhankar.2a8556fd2fd0c8f11020.png",
+    "static/media/detectit-logo-dark.svg": "/detect-it-frontend/static/media/detectit-logo-dark.137ab1610838b85ef08ffda3758d6af9.svg",
+    "static/media/detectit-logo-light.svg": "/detect-it-frontend/static/media/detectit-logo-light.330bcea8b2c2a66d403644edfbdb9aff.svg",
+    "index.html": "/detect-it-frontend/index.html",
+    "main.f22379ff.css.map": "/detect-it-frontend/static/css/main.f22379ff.css.map",
+    "main.9230c965.js.map": "/detect-it-frontend/static/js/main.9230c965.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f22379ff.css",
+    "static/js/main.9230c965.js"
+  ]
+}
